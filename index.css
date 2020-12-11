@@ -1,0 +1,61 @@
+body{
+    font-family: 'Castoro', serif;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: wheat;
+    padding: 20px 20px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+.container a{
+    margin-right: 20px;
+    color: rgb(46, 127, 165);
+    text-decoration: none;
+}
+.poster{
+    background-image: url(https://www.gkitchen.com/upload/post/banner/pc/121120093558.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-item{
+    height: 400px;
+    display: flex;
+}
+.product-item-img{
+    width: 40%;
+    height: 100%;
+    /* background-color: red; */
+    object-fit: cover;
+}
+.product-item-img img{
+    width: 100%;
+    height: 100%;
+}
+.product-item-detail{
+    padding-left: 10%;
+    width: 60%;
+    height: 100%;
+    /* background-color:blue; */
+}
+.container-detail{
+    padding: 0 15%;
+}
+.detail-btn{
+    border: solid 1px rgb(8, 235, 8);
+    padding: 15px;
+    background: none;
+    color: rgb(67, 199, 6);
+    font-size: 15px;
+    transition-duration: 2s;
+}
+.detail-btn:hover{
+    background-color: rgb(28, 119, 28);
+    color: white;
+    cursor: pointer;
+}
