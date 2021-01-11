@@ -227,3 +227,82 @@ input {
   width: 40px;
 }
 
+.navBar-container {
+    position: fixed;
+    background-color: #292929;
+    height: 70px;
+    font-size: 18px;    
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Century Gothic', sans-serif;
+    top: 0;
+    z-index: 10;
+}
+
+.navBarLogo {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.navBarAction {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navBarAction2 {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navBarAction2 a {
+    margin: auto;
+    color: white;
+}
+
+
+.navBarAction a {
+    margin: auto;
+    color: white;
+}
+
+.navBarAction a:hover{
+    color:yellow;
+    text-decoration: none;
+    transition-duration: 500ms; 
+}
+
+.navBarAction2 a:hover{
+    color:yellow;
+    text-decoration: none;
+    transition-duration: 500ms; 
+}
+.product {
+    animation-delay: 0.4s;
+}
+
+.news {
+    animation-delay: 0.6s;
+}
+
+.login {
+    animation-delay: 0.8s;
+}
+
+.cart {
+    animation-delay: 1s;
+}
+
+.search {
+    animation-delay: 1.2s;
+}
+
+.navBarSelector {
+    display: none;
+}
